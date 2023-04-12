@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-section {
+  height: 1010px;
+  background-color: #1f1b1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-section p {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 91.9%;
+  /* or 60px */
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #ffffff;
+  padding: 15px;
+}
+.about-section h1 {
+  position: relative;
+  top: -200px;
+  color: #9c9ea2;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 91.9%;
+  /* or 60px */
+  text-align: center;
+  letter-spacing: -0.035em;
+  padding: 15px;
+}
+.about-section img{
+    position: relative;
+    top:100px;
+}
+.down-icon-2{
+    z-index: 1;
+    color:white;
+    position: relative;
+    top:200px;
+    font-size:50px;
+}

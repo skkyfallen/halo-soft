@@ -10,14 +10,14 @@ const Navbar = () => {
         <ul>
          <Fade top duration={400} delay={300}>
           <li className="logo">
-            <a>HALOSOFT</a>
+            <a>HALOSOFT&lt;/&gt;</a>
           </li>
           </Fade>
           <Fade left>
           <li>
             <a>Home</a>
           </li>
-          <li><a>About</a></li>
+          <li><a >About</a></li>
           <li>
             <a>Projects</a>
           </li>

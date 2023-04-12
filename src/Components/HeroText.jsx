@@ -3,7 +3,14 @@ import "./herotext.css";
 import Fade from "react-reveal/Fade";
 import { MdWavingHand } from "react-icons/md";
 import phone_img from "../Assets/phone_img.png";
+import {BsCaretDownFill} from "react-icons/bs"
 const HeroText = () => {
+    const handleScroll = () => {
+        window.scrollTo({
+            top: 1000,
+            behavior: "smooth"
+        })
+    }
   return (
     <>
       <div className="background-container">
@@ -20,9 +27,9 @@ const HeroText = () => {
             <p>
               We love to provide top web solutions for your business
               <br />
-              Or do you just want one ro fulfill your fantasies?
+              Or do you just want one to fulfill your fantasies?
             </p>
-           
+           <BsCaretDownFill className="down-icon" onClick={handleScroll}/>
           </Fade>
         </div>
         <div className="image-container">
