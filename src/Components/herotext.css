@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.background-container {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text-container {
+  background-color: #0f0f0f;
+  width: 1800px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.we-do-text {
+  background-color: #000000;
+  width: 1800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text-welcome {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  padding: 15px;
+  line-height: 82px;
+  color: #ffffff;
+  text-align: center;
+}
+.we-do-text h3 {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  padding: 15px;
+  line-height: 82px;
+  color: #a6a6a6;
+  text-align: center;
+}
+.we-do-text p{
+    color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 5px;
+  line-height: 30px;
+  color: #d6d6d6;
+  text-align: center;
+}
+.phone-img{
+   /*  position: relative;
+    top:-50px;
+    left:400px; */
+    width:300px;
+    height:500px;
+    z-index:1;
+}
+.image-container{
+    position: relative;
+    left:450px;
+    top:-500px;
+}

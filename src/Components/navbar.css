@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  width:100%
+  
+}
+nav ul li a {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 86.9%;
+  font-variant: all-small-caps;
+  color: #ffffff;
+  cursor: pointer;
+}
+nav ul li a:hover{
+    color: #d6d6d6;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+nav ul li {
+  padding: 50px;
+}
+.logo a {
+  position: relative;
+  left: -950px;
+  
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 91.9%;
+  /* identical to box height, or 60px */
+
+  letter-spacing: -0.035em;
+  color: #ffffff;
+}
+@media only screen and (max-width: 768px){
+    nav{
+        width:100%
+    }
+}
